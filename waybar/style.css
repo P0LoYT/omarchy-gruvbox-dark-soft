@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  border-radius: 0;
+  border: none;
+  text-shadow: none;
+  transition: none;
+  box-shadow: none;
+}
+
+/* the whole window */
+window#waybar {
+  color: #ebdbb2;
+  background: #222222;
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 10pt;
+  font-weight: 900;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  padding: 2.5pt;
+  background: #222222;
+}
+
+#window,
+#cpu,
+#backlight,
+#memory,
+#bluetooth,
+#pulseaudio,
+#pulseaudio.muted,
+#battery,
+#network,
+#clock {
+  padding: 0 1.5pt;
+}
+
+#workspaces button,
+#custom {
+  color: #fff4d2;
+  background: #222222;
+  border: 2pt solid #fff4d2;
+  margin-right: 3pt;
+  min-width: 15pt;
+  padding: 0 3.75pt;
+}
+
+#idle_inhibitor {
+  color: #fff4d2;
+  background: #222222;
+  border: 2pt solid #fff4d2;
+  margin-left: 3pt;
+  min-width: 15pt;
+  padding: 0 3.75pt;
+}
+
+#network,
+#bluetooth,
+#pulseaudio,
+#pulseaudio,
+#memory,
+#battery {
+  color: #fff4d2;
+  background: #222222;
+  border: 2pt solid #fff4d2;
+  margin-right: 3pt;
+  min-width: 15pt;
+  padding: 0 3.75pt;
+}
+
+#clock {
+  padding-left: 8pt;
+}
+
+#workspaces button:last-child {
+  margin-right: 0;
+}
+
+#workspaces button:hover,
+#idle_inhibitor:hover,
+#custom {
+  color: #d3869b;
+  border-color: #d3869b;
+}
+
+#workspaces button.visible,
+#workspaces button.visible:hover,
+#workspaces button.active,
+#workspaces button.active:hover {
+  color: #8ec07c;
+  border-color: #8ec07c;
+}
+
+#workspaces button.urgent {
+  color: #ea6962;
+  border-color: #ea6962;
+}
+
+#window {
+  border: 2pt solid #d3869b;
+}
+
+#tray {
+  background: #222222;
+  border: 2pt solid #e78a4e;
+  padding: 0 6pt;
+}
+
+#bluetooth {
+  border: 2pt solid #ea6962;
+}
+
+#cpu {
+  border: 2pt solid #e78a4e;
+}
+
+#backlight {
+  border: 2pt solid #f6c657;
+}
+
+#memory {
+  border: 2pt solid #458588;
+}
+
+#pulseaudio {
+  border: 2pt solid #83a598;
+}
+
+#pulseaudio.muted {
+  border: 2pt solid #ea6962;
+  color: #ea6962;
+}
+
+#battery {
+  border: 2pt solid #689d68;
+}
+
+#clock {
+  border: 2pt solid #8ec07c;
+}
+
+#network {
+  border: 2pt solid #d3869b;
+}
+
+#mode,
+#submap {
+  background: #222222;
+  color: #83a598;
+  border: 2pt solid #83a598;
+  padding: 0 7.5pt;
+}
